@@ -1,0 +1,6 @@
+matplotlib
+numpy
+packaging
+Pillow
+scipy
+terminaltables
