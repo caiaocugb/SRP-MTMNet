@@ -1,6 +1,6 @@
 # SRP-MTMNet
 
-SRP-MTMNet is a dual-stream multimodal PSGFormer for joint panoptic entity
+SRP-MTMNet is a dual-stream multimodal Transformer for joint panoptic entity
 segmentation and object-level spatial-relationship prediction. It accepts a
 spatially aligned optical RGB image and an RGB MT-InSAR velocity image, extracts
 features with two ResNet-50 backbones, and fuses each pair of aligned feature
@@ -79,7 +79,8 @@ data/
 Optical and InSAR images in each pair must have identical height and width.
 Panoptic PNG segment IDs follow the COCO `rgb2id` encoding.
 
-##Notice!
+Notice!
+
 The functions in the mmdet library need to be modified to adapt to dual-branch data input and feature extraction.
 
 ## Train
