@@ -79,6 +79,8 @@ data/
 Optical and InSAR images in each pair must have identical height and width.
 Panoptic PNG segment IDs follow the COCO `rgb2id` encoding.
 
+##Notice!
+The functions in the mmdet library need to be modified to adapt to dual-branch data input and feature extraction.
 
 ## Train
 
